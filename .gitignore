@@ -31,14 +31,6 @@ whisper_java/local.properties
 whisper_native/local.properties
 whisper_java/gradle.properties
 whisper_native/gradle.properties
-whisper_java/gradlew
-whisper_native/gradlew
-whisper_java/gradlew.bat
-whisper_native/gradlew.bat
-whisper_java/gradle-wrapper.jar
-whisper_native/gradle-wrapper.jar
-whisper_java/gradle/wrapper/gradle-wrapper.properties
-whisper_native/gradle/wrapper/gradle-wrapper.properties
 
 # IntelliJ IDEA / Android Studio
 whisper_java/.idea/
