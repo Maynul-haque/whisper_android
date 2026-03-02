@@ -29,6 +29,21 @@ This repository offers two Android apps leveraging the OpenAI Whisper speech-to-
 - **Running the Whisper Native App**
   - Follow similar steps as above for the `whisper_native` app.
 
+
+### Command-line build
+
+You can build from terminal using the module wrapper scripts:
+
+```bash
+cd whisper_java
+./gradlew :app:assembleDebug
+```
+
+```bash
+cd whisper_native
+./gradlew :app:assembleDebug
+```
+
 ## Whisper ASR Integration Guide
 This guide explains how to integrate Whisper and Recorder class in Android apps for audio recording and speech recognition.
 
@@ -146,3 +161,7 @@ For any inquiries or business-related discussions, feel free to reach out:
 📧 Email: vilassninawe@gmail.com
 
 Thank you for your support! 🚀
+
+## 🗺️ Project Roadmap
+
+See `ROADMAP.md` for a phased modernization and feature-upgrade plan.
