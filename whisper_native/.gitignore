@@ -1,0 +1,14 @@
+# Android project local configurations
+local.properties
+keystore.properties
+*.keystore
+*.jks
+
+# Build outputs
+build/
+app/build/
+.cxx/
+
+# IDE configurations
+.idea/
+*.iml
