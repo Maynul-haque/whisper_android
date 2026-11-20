@@ -109,7 +109,7 @@ class WhisperEngineJava(context: Context) : WhisperEngine {
         val outputBuffer = TensorBuffer.createFixedSize(outputTensor.shape(), DataType.FLOAT32)
 
         // Load input data
-        val inputSize = inputTensor.shape()[0] * inputTensor.shape()[1] * inputTensor.shape()[2] * Float.BYTES
+        val inputSize = inputTensor.shape()[0] * inputTensor.shape()[1] * inputTensor.shape()[2] * java.lang.Float.BYTES
         val inputBuf = ByteBuffer.allocateDirect(inputSize)
         inputBuf.order(ByteOrder.nativeOrder())
         for (input in inputData) {

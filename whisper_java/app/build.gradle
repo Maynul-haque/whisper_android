@@ -10,7 +10,7 @@ android {
         }
     }
     namespace 'com.whispertflite'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.whispertflite"

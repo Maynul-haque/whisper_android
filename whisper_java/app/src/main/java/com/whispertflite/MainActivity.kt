@@ -56,7 +56,7 @@ class MainActivity : ComponentActivity() {
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
         sdcardDataFolder = getExternalFilesDir(null) ?: filesDir
-        val dataFolder = sdcardDataFolder
+        val dataFolder = sdcardDataFolder!!
         copyAssetsToSdcard(this, dataFolder, EXTENSIONS_TO_COPY)
 
         val tfliteFiles = getFilesWithExtension(dataFolder, ".tflite")

@@ -12,5 +12,5 @@ interface WhisperEngine {
 
     fun transcribeFile(wavePath: String): String
 
-    fun transcribeBuffer(samples: FloatArray): String
+    fun transcribeBuffer(samples: FloatArray): String?
 }

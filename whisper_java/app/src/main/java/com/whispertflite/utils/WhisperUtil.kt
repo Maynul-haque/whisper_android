@@ -96,7 +96,7 @@ class WhisperUtil {
         filters.nFft = vocabBuf.int
         Log.d(TAG, "n_mel:" + filters.nMel + ", n_fft:" + filters.nFft)
 
-        val filterData = ByteArray(filters.nMel * filters.nFft * Float.BYTES)
+        val filterData = ByteArray(filters.nMel * filters.nFft * java.lang.Float.BYTES)
         vocabBuf.get(filterData, 0, filterData.size)
         val filterBuf = ByteBuffer.wrap(filterData)
         filterBuf.order(ByteOrder.nativeOrder())
